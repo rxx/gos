@@ -1,0 +1,8 @@
+hidden = [
+    '.git'
+]
+
+run = '(just run)'
+
+[nix]
+channel = 'unstable'
