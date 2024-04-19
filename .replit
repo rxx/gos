@@ -3,6 +3,7 @@ hidden = [
 ]
 
 run = '(just run)'
+entrypoint = "README.md"
 
 [nix]
 channel = 'unstable'

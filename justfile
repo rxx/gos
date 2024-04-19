@@ -10,8 +10,11 @@ watch: build
 fmt:
   go fmt ./...
 
-update_deps:
+deps:
   go list -m -u all
+
+tidy:
+  go mod tidy
 
 build:
   go build -o gos github.com/rxx/gos/cmd/gos
