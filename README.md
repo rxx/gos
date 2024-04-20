@@ -1,2 +1,2 @@
 # gos
-Small exercises to get you used to reading and writing Golang code!
+True Golang Detective has strong ability to fix everything possible

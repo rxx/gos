@@ -6,9 +6,10 @@
 !*.go
 !go.sum
 !go.mod
-!justfile
-!.replit
-!replit.nix
+!/justfile
+!/.replit
+!/replit.nix
+!.keep
 
 !README.md
 !LICENSE
