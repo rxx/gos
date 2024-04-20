@@ -11,19 +11,23 @@ start_debug: build_debug
   DEBUG=1 bin/gos start
   
 # Run scene with number
-run_debug number: build
+run number: build
   bin/gos run {{number}}
 
 # Start server
-start_debug: build
+start: build
   bin/gos start
   
 # Format, vet and test code
 check: fmt vet test
+
+# Check with golangci
+ci:
+  golangci run
   
 # Format code (using goimports)
 fmt: install_tools
-  goimports -w ./...
+  goimports -l -w .
   
 # Run vet code analysis 
 vet:

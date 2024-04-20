@@ -1,0 +1,10 @@
+linters:
+  enable:
+    - unconvert
+    - stylecheck
+    - lll
+    - unparam
+    - goimports
+    - revive
+
+
